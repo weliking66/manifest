@@ -43,7 +43,7 @@
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="ion" />
-  <project path="frameworks/base" name="frameworks_base" remote="ion" />
+  <project path="frameworks/base" name="frameworks_base" remote="ankitgourav" />
   <project path="frameworks/ion" name="frameworks_ion" remote="ion" />
   <project path="frameworks/native" name="frameworks_native" remote="ion" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="ion" />
@@ -51,7 +51,7 @@
   <!-- General -->
   <project path="bionic" name="bionic" remote="ion" />
   <project path="bootable/recovery" name="bootable_recovery" remote="ion" />
-  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="ion" />
+  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="preview" />
   <project path="manifest" name="manifest" remote="ion" />
 
   <!-- Hardware -->
@@ -60,23 +60,23 @@
 
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="ion" />
-  <project path="packages/apps/ionizer" name="packages_apps_ionizer" remote="ion" />
+  <project path="packages/apps/ionizer" name="packages_apps_ionizer" remote="ankitgourav" />
   <project path="packages/apps/PermissionController" name="packages_apps_PackageInstaller" remote="ion" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ion" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ankitgourav" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="ion" />
   <project path="packages/apps/Updates" name="packages_apps_Updates" remote="ion" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="ion" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="ion" />
 
   <!-- System -->
-  <project path="system/bt" name="system_bt" remote="ion" />
+  <project path="system/bt" name="system_bt" remote="preview" />
   <project path="system/core" name="system_core" remote="ion" />
   <project path="system/netd" name="system_netd" remote="ion" />
-  <project path="system/sepolicy" name="system_sepolicy" remote="ion" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="preview" />
   <project path="system/vold" name="system_vold" remote="ion" />
 
   <!-- Vendor -->
-  <project path="vendor/ion" name="vendor_ion" remote="ion" />
+  <project path="vendor/ion" name="vendor_ion" remote="preview" />
   <project path="vendor/google/app" name="vendor_google_app" remote="ag" clone-depth="1" />
   <project path="vendor/google/ion" name="vendor_google_ion" remote="ion" />
   <project path="vendor/google/priv-app" name="vendor_google_priv-app" remote="ag" clone-depth="1" />

@@ -1,10 +1,10 @@
-# ion #
+# ion-preview #
 
 ### Sync ###
 ```bash
 
 # Initialize local repository
-repo init -u https://github.com/i-o-n/manifest -b ten
+repo init -u https://github.com/i-o-n/manifest -b preview
 
 # Sync
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags

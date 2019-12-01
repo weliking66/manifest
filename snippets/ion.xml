@@ -13,6 +13,14 @@
           fetch="https://github.com/ion-OS"
           revision="ten" />
 
+  <remote name="preview"
+          fetch="https://github.com/i-o-n"
+          revision="preview" />
+
+  <remote name="ankitgourav"
+          fetch="https://github.com/Ankit-Gourav"
+          revision="ten" />
+
   <!-- ion -->
   <!-- Build -->
   <project path="build/make" name="build" remote="ion">
